@@ -1,0 +1,19 @@
+# EditorConfig ajuda a manter estilos de codificação consistentes
+
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Regras para arquivos JS e TS
+[*.js,*.ts]
+quote_type = single  # Para usar aspas simples
+end_of_line = lf
+insert_final_newline = true
+
+# Adicionar ponto e vírgula no final de linhas automaticamente
+semicolon = true
